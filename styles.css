@@ -1,0 +1,50 @@
+:root {
+    font-size: calc(.7em + 1vw);
+    --generic-color: yellow;
+}
+
+
+body {
+    margin: 0;
+    background-color: #777;
+
+    font-family: 'Arial Wide', Arial, sans-serif;
+    color: var(--generic-color);
+    text-align: center;
+    padding: 0;
+}
+
+.main-contents {
+    margin: 0;
+    background-image: url(./bear.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.hug-button {
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid yellow;
+    border-radius: .5em;
+    background-color: burlywood;
+    margin-top: auto;
+    padding: 1em;
+    width: 50%;
+    align-self: center;
+
+}
+.hug-button:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+.hug-counter {
+    font-size: 3em;
+}
+h1{
+    margin: 0;
+}
